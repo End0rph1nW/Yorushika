@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>YORUSHIKA FANS CLUB</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/mycss.css">
+    <script src="./js/jquery-3.5.1.js"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+        #Bottom
+        {
+            position:fixed;
+            bottom:0px;
+        }
+        body
+        {
+            background-image:url(./img/YorushikaBG.png);
+        }
+        li
+        {
+
+        }
+        img
+        {
+            border:5px solid white;
+        }        ul{
+                     list-style: none;
+                 }
+        .peo_box{
+            height: 100px;
+            width: 100%;
+            opacity: 0;
+            visibility: hidden;
+            transition: 0.5s;
+            position: relative;
+        }
+        .lishow{
+            visibility: visible;
+            top: 0;
+            opacity: 1;
+        }
+    </style>
+    <script type="text/javascript">
+        $(function(){
+
+            $(document).on( 'scroll', function(){
+                var h = $(window).scrollTop();
+                var maxh = $(document).height();
+                var currh = $(window).height();
+                var num = Math.ceil((h-100)/160);
+                var str = ".peo_box"+num;
+                if(h>100 && h<(maxh-currh-1)){
+                    $(str).addClass('lishow');
+                }else if(h>=(maxh-currh-1)){
+                    $('.peo_box').addClass('lishow');
+                }else{
+                    $('.peo_box').removeClass('lishow');
+                }
+
+
+            });
+
+        });
+
+    </script>
+</head>
+<body>
+<div id="Navigator">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">YORUSHIKA</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">首页</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="News.html">新闻</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="Album.html">专辑 <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<div class="jumbotron jumbotron-fluid bg-white text-dark mt-5">
+    <div class="container">
+        <p class="text-center mt-n5"><img src="./img/Albumin1.jpg" class="rounded-lg shadow"></p>
+        <h1 class="display-4">【配信】Digital Single「風を食む」</h1>
+        <p class="lead">发布于 2020/10/07 共 1 首歌</p>
+        <p class="lead">ヨルシカ为TBS新闻节目“NEWS23”演唱全新片尾曲《風を食む》，该曲于10月7日正式发布。 </p>
+    </div>
+</div>
+<div class="peo_box2 peo_box">
+<div class="jumbotron jumbotron-fluid bg-white text-dark">
+    <div class="container">
+        <p class="lead">
+            貴方だけ　貴方だけ</br>
+            <small>只有你  只有你</small></br>
+            僕はずっと想ってたんだ</br>
+            <small>一直浮现于我的脑海之中</small></br>
+            ただ白いあの雲を待つ</br>
+            <small>只是等待着那朵白云</small></br>
+            風のない春に騒めく</br>
+            <small>于无风的春日中喧嚣</small></br>
+            草流れ　天飛ぶや</br>
+            <small>草波流淌  随风飘荡</small></br>
+            軽く花の散るを眺む</br>
+            <small>远望轻飏落花</small></br>
+            今、風を食む</br>
+            <small>如今  吞食清风</small></br>
+            </br>
+            </br>
+            遂に心は半額　いつまでも売れ残って</br>
+            <small>最后那颗心脏降到了半价  但是仍然没能卖出去</small></br>
+            テレビを眺めて空想　ニュースは希望のバーゲン</br>
+            <small>望着电视幻想着  新闻正播放着希望的大甩卖</small></br>
+            貴方は今日も買ってる　足りないものしか無くて</br>
+            <small>你今天也只采购着  你所缺少的东西</small></br>
+            俯く手元で購入　空は高いのかな</br>
+            <small>低着头动动手指买了下来  天空一定很高阔吧</small></br>
+            </br>
+            </br>
+            貴方だけ　貴方だけ</br>
+            <small>只有你  只有你</small></br>
+            この希望をわからないんだ</br>
+            <small>不懂得这份希望</small></br>
+            売れ残りの心でいい</br>
+            <small>卖不出去的心脏也无妨</small></br>
+            僕にとっては美しい</br>
+            <small>在我眼里仍是如此美丽</small></br>
+            春が咲き　花ぐわし</br>
+            <small>春意绽放  繁花锦簇</small></br>
+            桜の散りぬるを眺む</br>
+            <small>远望纷飞落樱</small></br>
+            貴方しか　貴方しか</br>
+            <small>只有你  只有你</small></br>
+            貴方の傷はわからないんだ</br>
+            <small>才知道自己的伤口在哪里</small></br>
+            口を開けて歌い出す</br>
+            <small>放声歌唱</small></br>
+            今、貴方は風を食む</br>
+            -<small>如今，你正吞食着清风</small></br>
+            冬籠り　春が先</br>
+            <small>寒冬过后  便是暖春</small></br>
+            貴方の歌だけが聞こえる</br>
+            <small>唯有你的歌声萦绕耳畔</small></br>
+            今、口遊む貴方だけ</br>
+            <small>如今，唯有哼唱着歌儿的你</small></br>
+            貴方だけ</br>
+            <small>唯有你</small></br>
+        </p>
+    </div>
+</div>
+</div>
+<div id="Bottom">
+    #0 YORUSHIKA FANS CLUB
+</div>
+<!--JS控件-->
+<script src="./js/jquery-3.5.1.js"></script>
+<script src="./js/bootstrap.bundle.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
